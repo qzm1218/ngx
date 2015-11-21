@@ -1,0 +1,130 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+NGX_ABORT	ngx_config.h	16;"	d
+NGX_AGAIN	ngx_config.h	12;"	d
+NGX_ALIGNMENT	ngx_config.h	33;"	d
+NGX_BUSY	ngx_config.h	13;"	d
+NGX_DECLINED	ngx_config.h	15;"	d
+NGX_DEFAULT_POOL_SIZE	ngx_palloc.h	23;"	d
+NGX_DONE	ngx_config.h	14;"	d
+NGX_ERROR	ngx_config.h	11;"	d
+NGX_INT32_LEN	ngx_config.h	20;"	d
+NGX_INT64_LEN	ngx_config.h	21;"	d
+NGX_INT_T_LEN	ngx_config.h	24;"	d
+NGX_INT_T_LEN	ngx_config.h	28;"	d
+NGX_MAX_ALLOC_FROM_POOL	ngx_palloc.h	21;"	d
+NGX_MAX_INT_T_VALUE	ngx_config.h	25;"	d
+NGX_MAX_INT_T_VALUE	ngx_config.h	29;"	d
+NGX_MIN_POOL_SIZE	ngx_palloc.h	26;"	d
+NGX_OK	ngx_config.h	10;"	d
+NGX_POOL_ALIGNMENT	ngx_palloc.h	25;"	d
+_NGX_ALLOC_H_INCLUDED_	ngx_alloc.h	9;"	d
+_NGX_ARRAY_H_INCLUDED_	ngx_array.h	9;"	d
+_NGX_CONFIG_H_INCLUDED_	ngx_config.h	2;"	d
+_NGX_CORE_H_INCLUDED_	ngx_core.h	3;"	d
+_NGX_PALLOC_H_INCLUDED_	ngx_palloc.h	9;"	d
+alloc	ngx_palloc.h	/^    void                 *alloc;$/;"	m	struct:ngx_pool_large_s
+buf	ngx_config.h	/^    ngx_buf_t    *buf;$/;"	m	struct:ngx_chain_s
+chain	ngx_palloc.h	/^    ngx_chain_t          *chain;$/;"	m	struct:ngx_pool_s
+cleanup	ngx_palloc.h	/^    ngx_pool_cleanup_t   *cleanup;$/;"	m	struct:ngx_pool_s
+current	ngx_palloc.h	/^    ngx_pool_t           *current;$/;"	m	struct:ngx_pool_s
+d	ngx_palloc.h	/^    ngx_pool_data_t       d;$/;"	m	struct:ngx_pool_s
+data	ngx_palloc.h	/^    void                 *data;$/;"	m	struct:ngx_pool_cleanup_s
+elts	ngx_array.h	/^    void        *elts;$/;"	m	struct:__anon1
+end	ngx_config.h	/^    u_char          *end;           \/* end of buffer *\/$/;"	m	struct:ngx_buf_s
+end	ngx_palloc.h	/^    u_char               *end;$/;"	m	struct:__anon2
+failed	ngx_palloc.h	/^    ngx_uint_t            failed;$/;"	m	struct:__anon2
+fd	ngx_palloc.h	/^    ngx_fd_t              fd;$/;"	m	struct:__anon3
+file_last	ngx_config.h	/^    off_t            file_last;$/;"	m	struct:ngx_buf_s
+file_pos	ngx_config.h	/^    off_t            file_pos;$/;"	m	struct:ngx_buf_s
+flush	ngx_config.h	/^    unsigned         flush:1;$/;"	m	struct:ngx_buf_s
+handler	ngx_palloc.h	/^    ngx_pool_cleanup_pt   handler;$/;"	m	struct:ngx_pool_cleanup_s
+in_file	ngx_config.h	/^    unsigned         in_file:1;$/;"	m	struct:ngx_buf_s
+large	ngx_palloc.h	/^    ngx_pool_large_t     *large;$/;"	m	struct:ngx_pool_s
+last	ngx_config.h	/^    u_char          *last;$/;"	m	struct:ngx_buf_s
+last	ngx_palloc.h	/^    u_char               *last;$/;"	m	struct:__anon2
+last_buf	ngx_config.h	/^    unsigned         last_buf:1;$/;"	m	struct:ngx_buf_s
+last_in_chain	ngx_config.h	/^    unsigned         last_in_chain:1;$/;"	m	struct:ngx_buf_s
+last_shadow	ngx_config.h	/^    unsigned         last_shadow:1;$/;"	m	struct:ngx_buf_s
+main	ngx_palloc.c	/^int main(int argc, char *argv[])$/;"	f
+max	ngx_palloc.h	/^    size_t                max;$/;"	m	struct:ngx_pool_s
+memory	ngx_config.h	/^    unsigned         memory:1;$/;"	m	struct:ngx_buf_s
+mmap	ngx_config.h	/^    unsigned         mmap:1;$/;"	m	struct:ngx_buf_s
+nalloc	ngx_array.h	/^    ngx_uint_t   nalloc;$/;"	m	struct:__anon1
+name	ngx_palloc.h	/^    u_char               *name;$/;"	m	struct:__anon3
+nelts	ngx_array.h	/^    ngx_uint_t   nelts;$/;"	m	struct:__anon1
+next	ngx_config.h	/^    ngx_chain_t  *next;$/;"	m	struct:ngx_chain_s
+next	ngx_palloc.h	/^    ngx_pool_cleanup_t   *next;$/;"	m	struct:ngx_pool_cleanup_s
+next	ngx_palloc.h	/^    ngx_pool_large_t     *next;$/;"	m	struct:ngx_pool_large_s
+next	ngx_palloc.h	/^    ngx_pool_t           *next;$/;"	m	struct:__anon2
+ngx_align	ngx_config.h	36;"	d
+ngx_align_ptr	ngx_config.h	37;"	d
+ngx_alloc	ngx_alloc.c	/^ngx_alloc(size_t size)$/;"	f
+ngx_array_create	ngx_array.c	/^ngx_array_create(ngx_pool_t *p, ngx_uint_t n, size_t size)$/;"	f
+ngx_array_destroy	ngx_array.c	/^ngx_array_destroy(ngx_array_t *a)$/;"	f
+ngx_array_init	ngx_array.h	/^ngx_array_init(ngx_array_t *array, ngx_pool_t *pool, ngx_uint_t n, size_t size)$/;"	f
+ngx_array_push	ngx_array.c	/^ngx_array_push(ngx_array_t *a)$/;"	f
+ngx_array_push_n	ngx_array.c	/^ngx_array_push_n(ngx_array_t *a, ngx_uint_t n)$/;"	f
+ngx_array_t	ngx_array.h	/^} ngx_array_t;$/;"	t	typeref:struct:__anon1
+ngx_buf_s	ngx_config.h	/^struct ngx_buf_s {$/;"	s
+ngx_buf_t	ngx_config.h	/^typedef struct ngx_buf_s  ngx_buf_t;$/;"	t	typeref:struct:ngx_buf_s
+ngx_cacheline_size	ngx_alloc.c	/^ngx_uint_t  ngx_cacheline_size;$/;"	v
+ngx_calloc	ngx_alloc.c	/^ngx_calloc(size_t size)$/;"	f
+ngx_chain_s	ngx_config.h	/^struct ngx_chain_s {$/;"	s
+ngx_chain_t	ngx_config.h	/^typedef struct ngx_chain_s  ngx_chain_t;$/;"	t	typeref:struct:ngx_chain_s
+ngx_cpymem	ngx_config.h	55;"	d
+ngx_create_pool	ngx_palloc.c	/^ngx_create_pool(size_t size)$/;"	f
+ngx_destroy_pool	ngx_palloc.c	/^ngx_destroy_pool(ngx_pool_t *pool)$/;"	f
+ngx_fd_t	ngx_config.h	/^typedef int             ngx_fd_t;$/;"	t
+ngx_flag_t	ngx_config.h	/^typedef intptr_t        ngx_flag_t;$/;"	t
+ngx_free	ngx_alloc.h	19;"	d
+ngx_int_t	ngx_config.h	/^typedef intptr_t        ngx_int_t;$/;"	t
+ngx_memalign	ngx_alloc.c	/^ngx_memalign(size_t alignment, size_t size)$/;"	f
+ngx_memalign	ngx_alloc.h	35;"	d
+ngx_memcpy	ngx_config.h	54;"	d
+ngx_memmove	ngx_config.h	52;"	d
+ngx_memset	ngx_config.h	51;"	d
+ngx_memzero	ngx_config.h	50;"	d
+ngx_movemem	ngx_config.h	53;"	d
+ngx_pagesize	ngx_alloc.c	/^ngx_uint_t  ngx_pagesize;$/;"	v
+ngx_pagesize_shift	ngx_alloc.c	/^ngx_uint_t  ngx_pagesize_shift;$/;"	v
+ngx_palloc	ngx_palloc.c	/^ngx_palloc(ngx_pool_t *pool, size_t size)$/;"	f
+ngx_palloc_block	ngx_palloc.c	/^ngx_palloc_block(ngx_pool_t *pool, size_t size)$/;"	f	file:
+ngx_palloc_large	ngx_palloc.c	/^ngx_palloc_large(ngx_pool_t *pool, size_t size)$/;"	f	file:
+ngx_pcalloc	ngx_palloc.c	/^ngx_pcalloc(ngx_pool_t *pool, size_t size)$/;"	f
+ngx_pfree	ngx_palloc.c	/^ngx_pfree(ngx_pool_t *pool, void *p)$/;"	f
+ngx_pmemalign	ngx_palloc.c	/^ngx_pmemalign(ngx_pool_t *pool, size_t size, size_t alignment)$/;"	f
+ngx_pnalloc	ngx_palloc.c	/^ngx_pnalloc(ngx_pool_t *pool, size_t size)$/;"	f
+ngx_pool_cleanup_add	ngx_palloc.c	/^ngx_pool_cleanup_add(ngx_pool_t *p, size_t size)$/;"	f
+ngx_pool_cleanup_file_t	ngx_palloc.h	/^} ngx_pool_cleanup_file_t;$/;"	t	typeref:struct:__anon3
+ngx_pool_cleanup_pt	ngx_palloc.h	/^typedef void (*ngx_pool_cleanup_pt)(void *data);$/;"	t
+ngx_pool_cleanup_s	ngx_palloc.h	/^struct ngx_pool_cleanup_s {$/;"	s
+ngx_pool_cleanup_t	ngx_palloc.h	/^typedef struct ngx_pool_cleanup_s  ngx_pool_cleanup_t;$/;"	t	typeref:struct:ngx_pool_cleanup_s
+ngx_pool_data_t	ngx_palloc.h	/^} ngx_pool_data_t;$/;"	t	typeref:struct:__anon2
+ngx_pool_large_s	ngx_palloc.h	/^struct ngx_pool_large_s {$/;"	s
+ngx_pool_large_t	ngx_palloc.h	/^typedef struct ngx_pool_large_s  ngx_pool_large_t;$/;"	t	typeref:struct:ngx_pool_large_s
+ngx_pool_s	ngx_palloc.h	/^struct ngx_pool_s {$/;"	s
+ngx_pool_t	ngx_core.h	/^typedef struct ngx_pool_s        ngx_pool_t;$/;"	t	typeref:struct:ngx_pool_s
+ngx_reset_pool	ngx_palloc.c	/^ngx_reset_pool(ngx_pool_t *pool)$/;"	f
+ngx_strchr	ngx_config.h	48;"	d
+ngx_strcmp	ngx_config.h	45;"	d
+ngx_strlen	ngx_config.h	47;"	d
+ngx_strncmp	ngx_config.h	44;"	d
+ngx_strstr	ngx_config.h	46;"	d
+ngx_tolower	ngx_config.h	42;"	d
+ngx_toupper	ngx_config.h	43;"	d
+ngx_uint_t	ngx_config.h	/^typedef uintptr_t       ngx_uint_t;$/;"	t
+num	ngx_config.h	/^    \/* STUB *\/ int   num;$/;"	m	struct:ngx_buf_s
+pool	ngx_array.h	/^    ngx_pool_t  *pool;$/;"	m	struct:__anon1
+pos	ngx_config.h	/^    u_char          *pos;$/;"	m	struct:ngx_buf_s
+recycled	ngx_config.h	/^    unsigned         recycled:1;$/;"	m	struct:ngx_buf_s
+shadow	ngx_config.h	/^    ngx_buf_t       *shadow;$/;"	m	struct:ngx_buf_s
+size	ngx_array.h	/^    size_t       size;$/;"	m	struct:__anon1
+start	ngx_config.h	/^    u_char          *start;         \/* start of buffer *\/$/;"	m	struct:ngx_buf_s
+sync	ngx_config.h	/^    unsigned         sync:1;$/;"	m	struct:ngx_buf_s
+temp_file	ngx_config.h	/^    unsigned         temp_file:1;$/;"	m	struct:ngx_buf_s
+temporary	ngx_config.h	/^    unsigned         temporary:1;$/;"	m	struct:ngx_buf_s
