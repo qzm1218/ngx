@@ -335,7 +335,7 @@ ngx_pool_cleanup_add(ngx_pool_t *p, size_t size)
     return c;
 }
 
-
+#if 0
 int main(int argc, char *argv[])
 {
 	ngx_pool_t *mempool = NULL;
@@ -385,4 +385,4 @@ int main(int argc, char *argv[])
 	return 0;
 }
 
-
+#endif
